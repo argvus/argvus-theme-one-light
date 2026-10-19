@@ -31,7 +31,7 @@ background = "#FAFAFA"
 calendar_css = "one-light"
 
 # Removable devices CSS variant (may differ from theme id)
-removable_devices_css = "one-light"
+removable_devices_css = "argvus-light"
 
 [aliases]
 # Legacy theme ID mappings (if any) - format: "old-id" = "one-light"
