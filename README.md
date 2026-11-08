@@ -1,6 +1,6 @@
 # One Light theme for ARGVUS
 
-Official ARGVUS Light theme, `one-light`, with its Sticky and Float variants.
+Official ARGVUS Light theme, `one-light`, with its Sticky and Spaced variants.
 
 [![CI](https://github.com/argvus/argvus-theme-one-light/actions/workflows/ci.yml/badge.svg)](https://github.com/argvus/argvus-theme-one-light/actions/workflows/ci.yml)
 [![Release](https://github.com/argvus/argvus-theme-one-light/actions/workflows/release.yml/badge.svg)](https://github.com/argvus/argvus-theme-one-light/actions/workflows/release.yml)
@@ -15,7 +15,7 @@ Official ARGVUS Light theme, `one-light`, with its Sticky and Float variants.
 
 | Field | Value |
 | --- | --- |
-| Theme ID | `one-light` (Float variant: `one-light-float`) |
+| Theme ID | `one-light` (Spaced variant: `one-light-spaced`) |
 | Display name | One Light |
 | Mode | `light` |
 | Default highlight | `#4078F2` |
@@ -45,7 +45,7 @@ The package installs the theme manifest,
 the palette), the templates it overrides under `overrides/` when it has any, and its
 wallpapers under `/usr/share/backgrounds/argvus`. The files of every component are
 rendered from the palette by the component's own templates when the theme is applied,
-for Sticky and Float alike. `argvus theme check src/usr/share/argvus/themes/one-light`
+for Sticky and Spaced alike. `argvus theme check src/usr/share/argvus/themes/one-light`
 renders them all and reports any error.
 
 ## Development
